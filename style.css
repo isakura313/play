@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.buttons .btn{
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.wrapper_flex{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    height: 500px;
+    width: 400px;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em; 
+    font-size: 25px;
+}
+.card_img{
+    width: 200px;
+    height: 250px;
+}
+.card:nth-child(1) .card_img{
+    background-image: url('/img/first.jpg');
+
+}
+.card:nth-child(2) .card_img{
+    background-image: url('/img/second.jpg');
+}
+.card:nth-child(3) .card_img{
+    background-image: url('/img/third.jpg');
+}
+.card:nth-child(4) .card_img{
+    background-image: url('/img/third.jpg');
+}
+.card:nth-child(5) .card_img{
+    background-image: url('/img/third.jpg');
+}
+.card:nth-child(6) .card_img{
+    background-image: url('/img/third.jpg');
+}
+.card_h5{
+    padding: 10px;
+}
+.card_btn{
+    padding: 5px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 150px;
+}
